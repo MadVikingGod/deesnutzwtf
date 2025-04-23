@@ -1,0 +1,29 @@
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" width="400">
+  <!-- Left and Right Posts -->
+  <rect x="60" y="80" width="10" height="70" fill="#ccc" />
+  <rect x="230" y="80" width="10" height="70" fill="#ccc" />
+  <rect x="55" y="150" width="20" height="10" fill="#333" />
+  <rect x="225" y="150" width="20" height="10" fill="#333" />
+
+  <!-- Bottom Barrier -->
+  <rect x="70" y="110" width="160" height="20" fill="#fff" />
+  <pattern id="stripes" patternUnits="userSpaceOnUse" width="20" height="20">
+    <rect width="10" height="20" fill="orange" transform="skewX(30)" />
+  </pattern>
+  <rect x="70" y="110" width="160" height="20" fill="url(#stripes)" />
+
+  <!-- Top Barrier -->
+  <rect x="70" y="80" width="160" height="20" fill="#fff" />
+  <rect x="70" y="80" width="160" height="20" fill="url(#stripes)" />
+
+  <!-- Flashing Lights -->
+  <circle cx="65" cy="70" r="10" fill="orange">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite" />
+  </circle>
+  <rect x="60" y="75" width="10" height="5" fill="#ffcc33" />
+
+  <circle cx="235" cy="70" r="10" fill="orange">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1s" begin="0.5s" repeatCount="indefinite" />
+  </circle>
+  <rect x="230" y="75" width="10" height="5" fill="#ffcc33" />
+</svg>

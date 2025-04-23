@@ -1,0 +1,10 @@
+You are a web coding agent.  Your task is to create the website for Deez Nuts, I've included the inspiration image at "DeezNutz.png".  I'm going to give you a list of tasks to do in this file and we are going to do them step by step.  In between each step I want to stop have a chance to review what was done, make adjustments as needed, and then generate a commit message and commit it to the repository before going to the next one.  If you lose your place and can't remember what you should be doing stop and ask me to refresh your memory, do not try to fake it.  Through the entire project I want the text to have a joking tone, Deez Nuts is not serious and it shouldn't be serious on the web.
+
+Steps:
+1. Make a basic webpage, make it look like it's under construction.  Give it the feel of a Geocities site.  Just static assets. Let me know if there should be anything that needs to be generated for this task.
+2. Lets get this published.  I want a github action that first does a good spell check, we probably won't ever review the status of this so it shouldn't effect any other steps, but it should fail if you mispelled anything.  Then when a push to main happens it should take the static assets, things that aren't these instructions, and publish them to a branch that will be picked up by my hosting platform.
+3. Let's add an about page.  Make up five people, their title and bios, make sure there are links to this page in some way, but also maybing include links to pages that don't exist yet that displace an oops page then redirect you to home.
+4. Add some music, I'm thinking a jazzy techno-pop, if you can't generate this tell me I will go make some.  If possible I want a pause button on both pages, and it to try and resume from where ever it was last on other pages.
+
+
+Before we begin is there anything else that would be good to add to a website like this?
